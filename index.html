@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow">
+  <title>HipoBuy spreadsheet | CAFANS Finds & Buying Guide</title>
+  <meta name="description" content="Browse HipoBuy spreadsheet finds from CAFANS. Filter shoes, hoodies, tees and jackets, compare reference prices, and check sizing, QC photos and shipping before ordering.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HipoBuy spreadsheet | CAFANS Finds & Buying Guide">
+  <meta property="og:description" content="Compare real CAFANS listings by category and reference price, then check the exact item before ordering through HipoBuy.">
+  <!-- index.html
+    Search research: chinagrails.com/en/spreadsheet/agent/hipobuy emphasizes filters, QC and parcel tools.
+    ssfinds.com/hipobuy-spreadsheet emphasizes category browsing and first-order guidance.
+    hipo-buy.com emphasizes buyer research and QC guides.
+    This page puts a filterable source-linked catalog and downloadable shortlist directly on the homepage,
+    with a checklist for checking the selected variant, QC photos and the full order cost.
+    Catalog source: https://cafans.com/ under Featured Product Finds. Prices are a static USD snapshot.
+    Google and Bing submission is pending. Once published, add the live HTTPS URL as the self-referencing
+    canonical and submit that URL under your verified property using Google Search Console URL Inspection
+    and Bing Webmaster Tools URL Submission.
+    https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl
+    https://www.bing.com/webmasters/help/URL-Submission-62f2860b
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "HipoBuy spreadsheet",
+        "description": "A filterable selection of CAFANS product listings with reference prices and a guide to checking variants, QC photos and shipping.",
+        "inLanguage": "en",
+        "mainEntity": {"@id": "#catalog"}
+      },
+      {
+        "@type": "ItemList",
+        "@id": "#catalog",
+        "name": "Featured CAFANS product listings",
+        "numberOfItems": 8,
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Leather Slides","url":"https://cafans.com/goods-158791.html"},
+          {"@type":"ListItem","position":2,"name":"Platform Slides","url":"https://cafans.com/goods-158790.html"},
+          {"@type":"ListItem","position":3,"name":"Sweatshirt","url":"https://cafans.com/goods-158792.html"},
+          {"@type":"ListItem","position":4,"name":"Thug Club - Rock Hoodie","url":"https://cafans.com/goods-158280.html"},
+          {"@type":"ListItem","position":5,"name":"Kanye West Yeezy Bully Black Short Sleeve T-Shirt","url":"https://cafans.com/goods-158273.html"},
+          {"@type":"ListItem","position":6,"name":"Unisex Embroidered Oversized T-Shirt","url":"https://cafans.com/goods-158200.html"},
+          {"@type":"ListItem","position":7,"name":"Corteiz Jacket","url":"https://cafans.com/goods-158279.html"},
+          {"@type":"ListItem","position":8,"name":"Jacket","url":"https://cafans.com/goods-158222.html"}
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{--ink:#192a22;--muted:#4e6459;--green:#174b38;--line:#d5e2d8;--paper:#f4f8f3;--lime:#dffb9b}
+    *{box-sizing:border-box}
+    [hidden]{display:none!important}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
+    a{color:var(--green);text-underline-offset:.2em}
+    :focus-visible{outline:3px solid #368751;outline-offset:4px}
+    .wrap{width:min(1100px,calc(100% - 2rem));margin-inline:auto}
+    header{background:var(--green);color:white;padding:clamp(3.5rem,9vw,7rem) 0;text-align:center}
+    h1,h2,h3{line-height:1.15;margin:0 0 .7rem}
+    h1{font-size:clamp(2.6rem,8vw,6rem);letter-spacing:-.065em}
+    h2{font-size:clamp(1.65rem,4vw,2.5rem);letter-spacing:-.035em}
+    h3{font-size:1.12rem}
+    p{margin:.5rem 0 1rem}
+    header p{max-width:37rem;margin:1.1rem auto 1.65rem;color:#e5f0e8}
+    .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.7rem}
+    .cta,button{font:inherit;font-weight:700;border:1px solid transparent;border-radius:.55rem;padding:.64rem 1rem;cursor:pointer}
+    .cta{text-decoration:none;background:var(--lime);color:#182b1d}
+    .cta.secondary{background:transparent;border-color:#c0d9ca;color:white}
+    main{padding:3rem 0}
+    section+section{margin-top:3.1rem}
+    .section-head{text-align:center;max-width:44rem;margin:0 auto 1.4rem}
+    .muted{color:var(--muted)}
+    .panel{border:1px solid var(--line);border-radius:1rem;background:white;padding:clamp(.8rem,3vw,1.5rem)}
+    .filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:.8rem}
+    label{display:grid;gap:.28rem;font-weight:650}
+    input,select{width:100%;min-width:0;color:inherit;background:white;border:1px solid #879e90;border-radius:.45rem;padding:.55rem;font:inherit}
+    .table-wrap{overflow-x:auto}
+    table{width:100%;border-collapse:collapse}
+    th,td{text-align:left;padding:.7rem .5rem;border-bottom:1px solid var(--line)}
+    th:last-child,td:last-child{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+    caption{text-align:left;color:var(--muted);padding:.3rem .5rem .7rem}
+    tbody a{font-weight:650}
+    .tools{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;margin:.9rem 0}
+    .tools p{margin:0}
+    button{background:var(--green);color:white}
+    button:disabled{opacity:.55;cursor:default}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem}
+    .steps p,details p{margin-bottom:0}
+    details{border-bottom:1px solid var(--line);padding:.8rem 0}
+    summary{cursor:pointer;font-weight:700}
+    footer{text-align:center;border-top:1px solid var(--line);padding:1.3rem 0;color:var(--muted)}
+    @media(max-width:650px){.filters,.steps{grid-template-columns:1fr}th,td{padding:.55rem .32rem;font-size:.88rem}}
+  </style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/jqlfd/">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>HipoBuy spreadsheet</h1>
+      <p>Compare shoes, streetwear and outerwear from CAFANS. Shortlist the items you like, then check the exact size, color and shipping quote before ordering.</p>
+      <div class="actions">
+        <a class="cta" href="https://cafans.com/">HipoBuy spreadsheet</a>
+        <a class="cta secondary" href="https://cafans.com/">Buy it now</a>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section id="catalog" aria-labelledby="catalog-title">
+      <div class="section-head">
+        <h2 id="catalog-title">CAFANS product catalog</h2>
+        <p class="muted">This selection comes from the CAFANS featured catalog. Reference prices are in USD. Open each listing to check current details and available buying options.</p>
+      </div>
+      <div class="panel">
+        <div class="filters" id="filters" hidden>
+          <label>Search products<input type="search" id="query" placeholder="Try hoodie or slides"></label>
+          <label>Category
+            <select id="category">
+              <option value="">All categories</option>
+              <option>Shoes</option><option>Hoodies &amp; sweaters</option>
+              <option>T-shirts</option><option>Jackets</option>
+            </select>
+          </label>
+          <label>Sort by
+            <select id="sort">
+              <option value="featured">Featured order</option>
+              <option value="ascending">Lowest price first</option>
+              <option value="descending">Highest price first</option>
+            </select>
+          </label>
+        </div>
+        <div class="tools" id="tools" hidden>
+          <p class="muted" id="results" role="status"></p>
+          <button type="button" id="download">Download filtered CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Featured listings with CAFANS product links</caption>
+            <thead><tr><th scope="col">Product</th><th scope="col">Category</th><th scope="col">Est. USD</th></tr></thead>
+            <tbody id="products">
+              <tr><td><a href="https://cafans.com/goods-158791.html">Leather Slides</a></td><td>Shoes</td><td>$62.36</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158790.html">Platform Slides</a></td><td>Shoes</td><td>$46.67</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158792.html">Sweatshirt</a></td><td>Hoodies &amp; sweaters</td><td>$27.50</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158280.html">Thug Club - Rock Hoodie</a></td><td>Hoodies &amp; sweaters</td><td>$37.22</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158273.html">Kanye West Yeezy Bully Black Short Sleeve T-Shirt</a></td><td>T-shirts</td><td>$22.92</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158200.html">Unisex Embroidered Oversized T-Shirt</a></td><td>T-shirts</td><td>$32.64</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158279.html">Corteiz Jacket</a></td><td>Jackets</td><td>$42.78</td></tr>
+              <tr><td><a href="https://cafans.com/goods-158222.html">Jacket</a></td><td>Jackets</td><td>$84.54</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section aria-labelledby="guide-title">
+      <div class="section-head"><h2 id="guide-title">How to use the HipoBuy spreadsheet</h2></div>
+      <div class="steps">
+        <article class="panel">
+          <h3>1. Open the exact listing</h3>
+          <p>Open a product on CAFANS, select <strong>Buy Link</strong> and choose HipoBuy when it appears. Compare the product title, color and selected size with the source listing.</p>
+        </article>
+        <article class="panel">
+          <h3>2. Check fit and QC photos</h3>
+          <p>Compare the seller’s measurements with an item that fits you. When warehouse photos are available, check the size tag, color, quantity and visible condition before approving dispatch.</p>
+        </article>
+        <article class="panel">
+          <h3>3. Compare the total cost</h3>
+          <p>Record item price, domestic delivery, agent fees and the international shipping quote separately. Compare routes using the destination and quoted billable weight. Check whether taxes or other charges are included.</p>
+        </article>
+      </div>
+    </section>
+    <section aria-labelledby="faq-title">
+      <div class="section-head"><h2 id="faq-title">Frequently asked questions</h2></div>
+      <div class="panel">
+        <details><summary>What is a HipoBuy spreadsheet?</summary><p>It is a product research list that groups listings by category and gives you a way to compare options before using HipoBuy as a shopping agent. This page links to the CAFANS product listings.</p></details>
+        <details><summary>Can I keep my own shortlist?</summary><p>Filter the catalog and download the visible rows as a CSV. Open the file in Excel or Google Sheets, then add columns for color, size, the current quote and the date you checked it.</p></details>
+        <details><summary>Where can I see the latest price and availability?</summary><p>Open the CAFANS product page and check the exact variant at the seller or agent. Confirm the current price, stock and any return conditions before paying.</p></details>
+        <details><summary>What should I do if the HipoBuy option is missing?</summary><p>Look for the original seller listing on CAFANS. Check with HipoBuy whether it currently accepts that listing and variant before placing an order.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">Independent shopping guide · Product listings and reference prices from CAFANS</div></footer>
+  <script>
+    const body = document.querySelector('#products');
+    const query = document.querySelector('#query');
+    const category = document.querySelector('#category');
+    const sort = document.querySelector('#sort');
+    const results = document.querySelector('#results');
+    const download = document.querySelector('#download');
+    const products = Array.from(body.rows, row => {
+      const link = row.cells[0].querySelector('a');
+      return {
+        row,
+        title: link.textContent,
+        url: link.href,
+        category: row.cells[1].textContent,
+        price: Number(row.cells[2].textContent.slice(1))
+      };
+    });
+    let visible = products;
+
+    function renderCatalog() {
+      const search = query.value.trim().toLowerCase();
+      visible = products.filter(product =>
+        (!category.value || product.category === category.value) &&
+        `${product.title} ${product.category}`.toLowerCase().includes(search)
+      );
+      if (sort.value === 'ascending') visible.sort((first, second) => first.price - second.price);
+      if (sort.value === 'descending') visible.sort((first, second) => second.price - first.price);
+      body.replaceChildren(...visible.map(product => product.row));
+      results.textContent = visible.length
+        ? `Showing ${visible.length} of ${products.length} listings`
+        : 'No matches. Try another search or category.';
+      download.disabled = visible.length === 0;
+    }
+
+    function exportCatalog() {
+      const rows = [
+        ['Product', 'Category', 'Reference price (USD)', 'CAFANS listing'],
+        ...visible.map(product => [product.title, product.category, product.price.toFixed(2), product.url])
+      ];
+      const csv = rows.map(row => row.map(value => `"${value.replace(/"/g, '""')}"`).join(',')).join('\r\n');
+      const url = URL.createObjectURL(new Blob(['\uFEFF', csv], {type: 'text/csv;charset=utf-8'}));
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'hipobuy-spreadsheet.csv';
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    query.addEventListener('input', renderCatalog);
+    category.addEventListener('change', renderCatalog);
+    sort.addEventListener('change', renderCatalog);
+    download.addEventListener('click', exportCatalog);
+    renderCatalog();
+    document.querySelector('#filters').hidden = false;
+    document.querySelector('#tools').hidden = false;
+  </script>
+</body>
+</html>
